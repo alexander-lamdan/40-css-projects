@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Ball Animation CSS project
+This is the ball animation CSS project.

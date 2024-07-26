@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Audio player CSS project
+This is the audio player CSS project.

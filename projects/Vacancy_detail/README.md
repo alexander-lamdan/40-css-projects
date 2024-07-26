@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Vacancy detail CSS project
+This is the vacancy detail CSS project.

@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Cloud storage CSS project
+This is the cloud storage CSS project.

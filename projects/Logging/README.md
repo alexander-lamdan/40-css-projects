@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Logging CSS project
+This is the logging CSS project.

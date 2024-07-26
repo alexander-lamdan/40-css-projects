@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Admin Panel CSS project
+This is the admin panel CSS project.

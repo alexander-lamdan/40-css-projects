@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Instagram profile CSS project
+This is the instagram profile CSS project.

@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Profile CSS project
+This is the profile CSS project.

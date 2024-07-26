@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Database CSS project
+This is the database CSS project.

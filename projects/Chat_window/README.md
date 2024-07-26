@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Chat window CSS project
+This is the chat window CSS project.

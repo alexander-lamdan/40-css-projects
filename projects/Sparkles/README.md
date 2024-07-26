@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Sparkles CSS project
+This is the sparkles CSS project.

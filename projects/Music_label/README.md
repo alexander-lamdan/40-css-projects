@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Music label CSS project
+This is the music label CSS project.

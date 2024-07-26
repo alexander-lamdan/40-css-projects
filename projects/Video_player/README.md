@@ -1,2 +1,2 @@
-# Blog CSS project
-This is the blog CSS project.
+# Video player CSS project
+This is the video player CSS project.
