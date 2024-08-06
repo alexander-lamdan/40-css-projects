@@ -11,7 +11,7 @@ body{
   width:100%;
   display:flex;
   height:40px;
-  background:green;
+  background:#3f88c5;
 }
 .navigation-menu .navigation-list{
   list-style-type:none;
@@ -20,6 +20,8 @@ body{
   display:flex;
   justify-content:flex-end;
   gap:1em;
+  padding:0.3em;
+  margin:0;
 }
 .navigation-menu .navigation-list li a{
   text-decoration:none;
@@ -31,25 +33,107 @@ body{
   height:30px;
   border-radius:50%;
   margin:0;
+  border:1px solid white;
+}
+.navigation-menu .navigation-list li a img:hover{
+  border:1px solid #f26419;
+}
+.navigation-menu .navigation-list .fa-bell{
+  font-size:1.7rem;
+  color:white;
+  padding:0.1em;
+}
+.navigation-menu .navigation-list .fa-bell:hover{
+  color:#f26419;
 }
 .navigation-menu .navigation-list .settings-hover{
   list-style-type:none;
   display:none;
-  background:red;
+  background:white;
   flex-flow:column wrap;
+  position:absolute;
+  right:0.3em;
+  width:150px;
+  height:180px;
+  padding:0.3em;
+  margin:0;
+  justify-content: space-around;
+  text-align:center;
+  border-radius:0.3em;
+  box-shadow:0 1px 6px black;
+}
+.navigation-menu .navigation-list .settings-hover li{
+  width:100%;
+  padding-top:0.2em;
+  height:30px;
+}
+.navigation-menu .navigation-list .settings-hover li:hover{
+  cursor:pointer;
+  background:#f26419;
+  border-radius:0.3em;
 }
 .sidebar-navigation{
   width:140px;
   height:100%;
   display:flex;
   align-items:stretch;
-  background:pink
+}
+.sidebar-navigation .sidebar-menu{
+  list-style-type:none;
+  padding:0.2em;
+  width:100%;
+}
+.sidebar-navigation .sidebar-menu li a{
+  text-decoration:none;
+  color:black;
+  font-size:1.3rem;
+  text-transform: uppercase;
+  border-bottom:1px solid black;
+}
+.sidebar-navigation .sidebar-menu li a:hover{
+  border-bottom:1px solid #f26419;
+  color:#f26419;
+}
+.sidebar-navigation .sidebar-menu .submenu{
+  list-style-type:none;
+  display:flex;
+  flex-flow:column wrap;
+  width:100%;
+  padding:0;
+}
+.sidebar-navigation .sidebar-menu .submenu li{
+  width:100%;
+  height:30px;
+}
+.sidebar-navigation .sidebar-menu .submenu li a{
+  font-size:0.9rem;
+  text-transform:none;
+  border-bottom:none;
+}
+.sidebar-navigation .sidebar-menu .submenu li:hover{
+  background:lightgray;
+  cursor:pointer;
+  border-radius:0.2em;
 }
 .blocks{
-  width:90%;
+  width:88%;
   height:100%;
-  background:purple;
   display:flex;
   flex-flow:row wrap;
-  justify-content: space-between;
+  justify-content:space-between;
+  gap:1em;
+  padding:1em;
+  margin-top:1em;
+}
+.blocks .table-block{
+  width:450px;
+  height:350px;
+  border-radius:0.3em;
+  box-shadow:0 1px 6px black;
+}
+th,td{
+  border:1px solid black;
+  width:100%;
+  border-radius:0.3em;
+  height:100%;
 }
