@@ -13,6 +13,7 @@ body{
   height:40px;
   background:#3f88c5;
   z-index:1;
+  position:fixed;
 }
 .navigation-menu .navigation-list{
   list-style-type:none;
@@ -49,7 +50,7 @@ body{
 }
 .navigation-menu .navigation-list .settings-hover{
   list-style-type:none;
-  display:none;
+  display:flex;
   background:white;
   flex-flow:column wrap;
   position:absolute;
@@ -79,7 +80,7 @@ body{
   display:flex;
   align-items:stretch;
   border-right:1px solid gray;
-  position:absolute;
+  position:fixed;
   overflow:scroll;
   scrollbar-width: thin;
 }
@@ -135,12 +136,24 @@ body{
   border-radius:0.2em;
 }
 .blocks{
-  width:88%;
-  height:100%;
+  width:89.09%;
+  min-height:100%;
   display:flex;
   flex-flow:row wrap;
   justify-content:space-between;
   gap:1em;
   padding:1em;
-  margin-top:1em;
+  margin-top:2em;
+  background:rgba(128, 128, 128, 0.377);
+  position:absolute;
+  right:0;
+}
+.blocks .block{
+  width:450px;
+  height:220px;
+  background:rgb(255, 255, 255);
+  border-radius:0.7em;
+  border:1px solid rgba(0, 0, 0, 0.568);
+  box-shadow:0 1px 6px rgba(27, 27, 27, 0.473);
+  
 }
